@@ -16,7 +16,7 @@ setSearchClicked(false)
 },[searchClicked])
 
 const fetchData = async()=>{
-  const key = "6NoMXa5MKwT5c37CsLLApCUSPbEGEOYG";
+  const key = "TNfE3dHCuMBpsGW9Jsg5s7Lb1TrjGWJQ";
 const baseUrl = "https://dataservice.accuweather.com/locations/v1/cities/search";
 const query = `?apikey=${key}&q=${city}`;
 //const baseUrlCity = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/";
